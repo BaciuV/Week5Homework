@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/1.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.intro-image__link  > a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #676a63c0;
+    padding: 2rem;
+    color: #c8ac82;
+    border: 5px solid #676a63;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link  > a:hover {
+    transform: scale(1.25);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #7f7a7a;
+    color: #c8ac82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding: 0 20rem;
+}
+
+.intro-text__textbox > h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.quality-image__link > a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #676a63c0;
+    padding: 2rem;
+    color: #c8ac82;
+    border: 5px solid #676a63;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link  > a:hover {
+    transform: scale(1.25);
+}
+
+.quality-text {
+    height: 250px;
+    background-color: #7f7a7a;
+    color: #c8ac82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding: 0 20rem;
+}
+
+.quality-text__textbox > h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/3.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.origin-image__link  > a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #676a63c0;
+    padding: 2rem;
+    color: #c8ac82;
+    border: 5px solid #676a63;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-image__link  > a:hover {
+    transform: scale(1.25);
+}
+
+.origin-text {
+    height: 250px;
+    background-color: #514d4d;
+    color: #c8ac82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding: 0 20rem;
+}
+
+.origin-text__textbox > h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.footer {
+    background-color: #363434;
+    height: 100px;
+    color: #c8ac82;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.footer ul li a {
+    color: #c8ac82;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #c8ac8279;;
+    display: inline-block;
+    transform: scale(1.25);
+}
